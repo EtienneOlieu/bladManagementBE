@@ -1,11 +1,13 @@
 package services;
 
 import models.Order;
+import org.springframework.stereotype.Service;
 import repositories.OrderRepository;
 
 import java.util.Optional;
 import java.util.Set;
 
+@Service
 public class OrderService implements IOrderService{
 
     private OrderRepository orderRepository;

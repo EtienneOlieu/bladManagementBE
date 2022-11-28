@@ -1,11 +1,13 @@
 package services;
 
 import models.Employee;
+import org.springframework.stereotype.Service;
 import repositories.EmployeeRepository;
 
 import java.util.Optional;
 import java.util.Set;
 
+@Service
 public class EmployeeService implements IEmployeeService{
 
     private EmployeeRepository employeeRepository;

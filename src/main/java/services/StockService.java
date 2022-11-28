@@ -1,11 +1,13 @@
 package services;
 
 import models.Stock;
+import org.springframework.stereotype.Service;
 import repositories.StockRepository;
 
 import java.util.Optional;
 import java.util.Set;
 
+@Service
 public class StockService implements IStockService{
 
     private StockRepository stockRepository;

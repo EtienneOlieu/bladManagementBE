@@ -1,11 +1,13 @@
 package services;
 
 import models.Event;
+import org.springframework.stereotype.Service;
 import repositories.EventRepository;
 
 import java.util.Optional;
 import java.util.Set;
 
+@Service
 public class EventService implements IEventService{
 
     private EventRepository eventRepository;

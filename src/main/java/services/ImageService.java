@@ -1,11 +1,13 @@
 package services;
 
 import models.Image;
+import org.springframework.stereotype.Service;
 import repositories.ImageRepository;
 
 import java.util.Optional;
 import java.util.Set;
 
+@Service
 public class ImageService implements IImageService{
 
     private ImageRepository imageRepository;

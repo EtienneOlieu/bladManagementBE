@@ -1,11 +1,13 @@
 package services;
 
 import models.Admin;
+import org.springframework.stereotype.Service;
 import repositories.AdminRepository;
 
 import java.util.Optional;
 import java.util.Set;
 
+@Service
 public class AdminService implements IAdminService{
 
     private AdminRepository adminRepository;

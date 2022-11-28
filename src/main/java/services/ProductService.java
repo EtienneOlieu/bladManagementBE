@@ -1,11 +1,13 @@
 package services;
 
 import models.Product;
+import org.springframework.stereotype.Service;
 import repositories.ProductRepository;
 
 import java.util.Optional;
 import java.util.Set;
 
+@Service
 public class ProductService implements IProductService{
 
     private ProductRepository productRepository;
